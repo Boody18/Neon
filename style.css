@@ -1,0 +1,978 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    height: 4000px;
+}
+header {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: rgb(59, 59, 231);
+    height: 50px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 3; 
+}
+.title{
+    position: relative;
+    display: flex;
+    gap: 0.5rem;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0px 0px 0px 1000px;
+}
+header nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header h2{
+    color: white;
+}
+.head1 {
+    z-index: 1;
+    padding: 80px 0px;
+    background-color:rgb(59, 59, 231) ;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: absolute;
+    border-radius: 0px 0px 200px 200px;
+}
+header nav button{
+    border-style: none;
+    border-radius: 20px;
+    background-color: rgb(245, 36, 106);
+    width: 80px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.7s;
+    height: 25px;
+}
+header nav button:hover{
+    background-color: white;
+    color: black;
+}
+.head1  img{
+    width: 50%;
+    border-radius: 30%;
+    padding: 0px 100px 0px 100px; 
+    position: relative;
+    top: -20px;
+    right: 0;
+    bottom: 0;
+    left: 140px;
+}
+.head1 .about{
+    display: grid;
+    gap: 1rem;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0px;
+}
+.head1 .form{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    top: 420px;
+    left: 0px;
+    
+}
+.button{
+    color: white;
+    border-style: none;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 100px;
+    border-style: none;
+    height: 25px;
+    background-size: 80px;
+    background-color: palevioletred;
+    transition: 0.7s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button:hover{
+    background-color: red;
+    color: black;
+    transform: scale(1.1);
+}
+.searchbar{ 
+    border-style: none;   
+    position: relative;
+    left: 60px;
+    width: 400px;
+    height: 25px;
+    border-radius: 50px;
+}
+.head2{
+    z-index: 2;
+    position: absolute;
+    top: 670px;
+    left: 150px;
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+}
+.one{
+    position: relative;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+    padding: 0px 95px;
+    width: 5px;
+    height: 120px;
+    cursor: pointer;
+    border-style: none;
+}
+.two{
+    position: relative;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+    padding: 0px 95px;
+    width: 0px;
+    height: 120px;
+    cursor: pointer;
+}
+.three{
+    position: relative;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    background-color: rgb(239, 239, 239);
+    border-radius: 5px;
+    padding: 0px 95px;
+    width: 0px;
+    height: 120px;
+    cursor: pointer;
+}
+.four{
+    position: relative;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    background-color: rgb(239, 239, 239);
+    border-radius: 5px;
+    padding: 0px 95px;
+    width: 0px;
+    height: 120px;
+    cursor: pointer;
+}
+.i11{
+    top: 5px;
+    border-radius: 40px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: rgb(59, 59, 231);
+}
+.i22{
+    top: 5px;
+    border-radius: 40px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: rgb(59, 59, 231);
+}
+.i33{
+    top: 5px;
+    border-radius: 40px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: rgb(59, 59, 231);
+}
+.i44{
+    top: 5px;
+    border-radius: 40px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: rgb(59, 59, 231);
+}
+.i1{
+    border-color: rgb(59, 59, 231);
+    position: absolute;
+    left: 7px;
+    top: 8px;
+    height: 45px;
+    border-radius: 30px;
+    width: 45px;
+    background-color: rgb(59, 59, 231) ;
+}
+.i2{
+    border-color: rgb(59, 59, 231);
+    position: absolute;
+    left: 7px;
+    top: 8px;
+    height: 45px;
+    border-radius: 30px;
+    width: 45px;
+    background-color: rgb(59, 59, 231) ;
+}
+.i3{
+    border-color: rgb(59, 59, 231);
+    position: absolute;
+    left: 7px;
+    top: 8px;
+    height: 45px;
+    border-radius: 30px;
+    width: 45px;
+    background-color: rgb(59, 59, 231) ;
+}
+.i4{
+    border-color: rgb(59, 59, 231);
+    position: absolute;
+    left: 7px;
+    top: 8px;
+    height: 45px;
+    border-radius: 30px;
+    width: 45px;
+    background-color: rgb(59, 59, 231) ;
+}
+.button1{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 70px 0px 0px 0px;
+    font-size: 12px;
+    background-size: 80px;
+}
+.button2{
+    color: black;
+    cursor: pointer;
+    background-color: whi;
+    text-decoration: none;
+    padding: 70px 0px 0px 0px;
+    background-size: 80px;
+    font-size: 12px;
+}
+.button3{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 70px 0px 0px 0px;
+    background-size: 80px;
+    font-size: 12px;
+}
+.button4{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 70px 0px 0px 0px;
+    background-size: 80px;
+    font-size: 12px;
+}
+.trending{
+    display: flex;
+    position: absolute;
+    top: 1000px;
+    left: 100px;
+    
+}
+.trendinggames{
+    position: absolute;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    justify-content: center;
+}
+.trendinggames button{
+    position: relative;
+    top: 15px;
+    left: 800px;
+    border-radius: 20px;
+    background-color: rgb(245, 36, 106);
+    width: 80px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.7s;
+    height: 25px;
+    border-style: none;
+}
+.trendinggames button:hover{
+    background-color: rgb(245, 36, 106);
+    color: black;
+    transform: scale(1.1);
+}
+.games1{
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: 120px;
+    background-color:white;
+    gap: 3rem;
+    left: 25px;
+}
+.img1{
+    position: absolute;
+    z-index: 1;
+    border-radius: 30px;
+    width: 255px;
+    top: 1px;
+    left: -4px;
+}
+.img2{
+    position: absolute;
+    z-index: 1;
+    border-radius: 30px;
+    width: 255px;
+    top: 1px;
+    left: 293px;
+}
+.img3{
+    position: absolute;
+    z-index: 1;
+    border-radius: 30px;
+    width: 255px;
+    top: 1px;
+    left: 593px;
+}
+.img4{
+    position: absolute;
+    z-index: 1;
+    border-radius: 30px;
+    width: 255px;
+    top: 1px;
+    left: 893px;
+}
+.first{
+    background-color: rgb(214, 214, 214);
+    width: 250px;
+    height: 300px;
+    border-radius: 25px;
+}
+.second{
+    background-color: rgb(214, 214, 214);
+    width: 250px;
+    height: 300px;
+    border-radius: 25px;
+}
+.third{
+    background-color: rgb(214, 214, 214);
+    width: 250px;
+    height: 300px;
+    border-radius: 25px;
+}
+.fourth{
+    background-color: rgb(214, 214, 214);
+    width: 250px;
+    height: 300px;
+    border-radius: 25px;
+}
+.price{
+    position: relative;
+    background-color: blue;
+    left: 185px;
+    width: 50px;
+    border-radius: 30px;
+    color: whitesmoke;
+    z-index: 2;
+    top: 15px;
+}
+.buy1{
+    position: absolute;
+    top: 60px;
+    left: 120px;
+}
+.buy1 button{
+    position: relative;
+    top: 200px;
+    left: 80px;
+    border-radius: 20px;
+    background-color: rgb(245, 36, 106);
+    width: 30px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.7s;
+    height: 25px;
+    border-style: none;
+}
+.buy1 button:hover{
+    background-color: rgb(245, 36, 106);
+    color: black;
+    transform: scale(1.1);
+
+}
+.buy2{
+    position: absolute;
+    top: 60px;
+    left: 420px;
+}
+.buy2 button{
+    position: relative;
+    top: 200px;
+    left: 80px;
+    border-radius: 20px;
+    background-color: rgb(245, 36, 106);
+    width: 30px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.7s;
+    height: 25px;
+    border-style: none;
+}
+.buy2 button:hover{
+    background-color: rgb(245, 36, 106);
+    color: black;
+    transform: scale(1.1);
+
+}
+.buy3{
+    position: absolute;
+    top: 60px;
+    left: 720px;
+}
+.buy3 button{
+    position: relative;
+    top: 200px;
+    left: 80px;
+    border-radius: 20px;
+    background-color: rgb(245, 36, 106);
+    width: 30px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.7s;
+    height: 25px;
+    border-style: none;
+}
+.buy3 button:hover{
+    background-color: rgb(245, 36, 106);
+    color: black;
+    transform: scale(1.1);
+
+}
+.buy4{
+    position: absolute;
+    top: 60px;
+    left: 1020px;
+}
+.buy4 button{
+    position: relative;
+    top: 200px;
+    left: 80px;
+    border-radius: 20px;
+    background-color: rgb(245, 36, 106);
+    width: 30px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.7s;
+    height: 25px;
+    border-style: none;
+}
+.buy4 button:hover{
+    background-color: rgb(245, 36, 106);
+    color: black;
+    transform: scale(1.1);
+
+}
+.about{
+    position: absolute;
+    top: 210px;
+    padding: 0px 0px 0px 70px;
+}
+.mostplayed{
+    display: flex;
+    position: absolute;
+    top: 1700px;
+    left: 100px;
+    border-radius: 30px;
+}
+.headplay{
+    position: absolute;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    justify-content: center;
+}
+.headplay button{
+    position: relative;
+    top: 15px;
+    left: 850px;
+    border-radius: 20px;
+    background-color: rgb(245, 36, 106);
+    width: 80px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.7s;
+    height: 25px;
+    border-style: none;
+}
+.headplay button:hover{
+    background-color: rgb(245, 36, 106);
+    color: black;
+    transform: scale(1.1);
+}
+.games2{
+    display: inline-flex;
+    text-align: center;
+    position: relative;
+    top: 120px;
+    gap: 2rem;
+    left: 10px;
+}
+
+.i5{
+    position: absolute;
+    border-radius: 25px;
+    height: 170px;
+    width: 170px;
+    top: 0px;
+    left: 0px;
+}
+.i6{
+    position: absolute;
+    border-radius: 25px;
+    height: 170px;
+    width: 170px;
+    top: 0px;
+    left: 202px;
+}
+.i7{
+    position: absolute;
+    border-radius: 25px;
+    height: 170px;
+    width: 170px;
+    top: 0px;
+    left: 403px;
+}
+.i8{
+    position: absolute;
+    border-radius: 25px;
+    height: 170px;
+    width: 170px;
+    top: 0px;
+    left: 606px;
+}
+.i9{
+    position: absolute;
+    border-radius: 25px;
+    height: 170px;
+    width: 170px;
+    top: 0px;
+    left: 807px;
+}
+.i10{
+    position: absolute;
+    border-radius: 25px;
+    height: 170px;
+    width: 170px;
+    top: 0px;
+    left: 1010px;
+}
+.fifth{
+    background-color: rgb(214, 214, 214);
+    width: 170px;
+    height: 300px;
+    border-radius: 25px;
+}
+.six{
+    background-color: rgb(214, 214, 214);
+    width: 170px;
+    height: 300px;
+    border-radius: 25px;
+}
+.seventh{
+    background-color: rgb(214, 214, 214);
+    width: 170px;
+    height: 300px;
+    border-radius: 25px;
+}
+.eighth{
+    background-color: rgb(214, 214, 214);
+    width: 170px;
+    height: 300px;
+    border-radius: 25px;
+}
+.nineth{
+    background-color: rgb(214, 214, 214);
+    width: 170px;
+    height: 300px;
+    border-radius: 25px;
+}
+.tenth{
+    background-color: rgb(214, 214, 214);
+    width: 170px;
+    height: 300px;
+    border-radius: 25px;
+}
+.about2{
+    position: absolute;
+    top: 200px;
+    padding: 0px 0px 0px 30px;
+}
+.buy5{
+    position: absolute;
+    top: 250px;
+    left: 40px;
+}
+.buy5 button{
+    position: relative;
+    border-radius: 30px;
+    background-color: rgb(245, 36, 106);
+    width: 100px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.7s;
+    height: 30px;
+    border-style: none;
+}
+.buy5 button:hover{
+    background-color: rgb(245, 36, 106);
+    color: whitesmoke;
+    transform: scale(1.1);
+}
+.buy6{
+    position: absolute;
+    top: 250px;
+    left: 240px;
+}
+.buy6 button{
+    position: relative;
+    border-radius: 30px;
+    background-color: rgb(245, 36, 106);
+    width: 100px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.7s;
+    height: 30px;
+    border-style: none;
+}
+.buy6 button:hover{
+    background-color: rgb(245, 36, 106);
+    color: whitesmoke;
+    transform: scale(1.1);
+}
+.buy7{
+    position: absolute;
+    top: 250px;
+    left: 443px;
+}
+.buy7 button{
+    position: relative;
+    border-radius: 30px;
+    background-color: rgb(245, 36, 106);
+    width: 100px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.7s;
+    height: 30px;
+    border-style: none;
+}
+.buy7 button:hover{
+    background-color: rgb(245, 36, 106);
+    color: whitesmoke;
+    transform: scale(1.1);
+}
+.buy8{
+    position: absolute;
+    top: 250px;
+    left: 647px;
+}
+.buy8 button{
+    position: relative;
+    border-radius: 30px;
+    background-color: rgb(245, 36, 106);
+    width: 100px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.7s;
+    height: 30px;
+    border-style: none;
+}
+.buy8 button:hover{
+    background-color: rgb(245, 36, 106);
+    color: whitesmoke;
+    transform: scale(1.1);
+}
+.buy9{
+    position: absolute;
+    top: 250px;
+    left: 847px;
+}
+.buy9 button{
+    position: relative;
+    border-radius: 30px;
+    background-color: rgb(245, 36, 106);
+    width: 100px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.7s;
+    height: 30px;
+    border-style: none;
+}
+.buy9 button:hover{
+    background-color: rgb(245, 36, 106);
+    color: whitesmoke;
+    transform: scale(1.1);
+}
+.buy10{
+    position: absolute;
+    top: 250px;
+    left: 1048px;
+}
+.buy10 button{
+    position: relative;
+    border-radius: 30px;
+    background-color: rgb(245, 36, 106);
+    width: 100px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.7s;
+    height: 30px;
+    border-style: none;
+}
+.buy10 button:hover{
+    background-color: rgb(245, 36, 106);
+    color: whitesmoke;
+    transform: scale(1.1);
+}
+.topcategories{
+    display: flex;
+    position: absolute;
+    top: 2400px;
+    left: 70px;
+}
+.headcat{
+    display: flex;
+    position: absolute;
+    align-items: baseline;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 30px;
+    left: 540px;
+}
+.headcat h4{
+    color: red;
+    font-size: 15px;
+    padding: 0px 0px 0px 100px;
+}
+.categories{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    top: 150px;
+    left: 30px;
+    gap: 1rem;
+    animation: breath 3s infinite;
+    color: #f0f0f0;
+}
+@keyframes breath {
+    0%,100% {
+        transform: scale(1);
+        background-color: #f0f0f0;
+    }
+    50% {
+        transform: scale(1.05);
+        background-color: #f0f0f0;
+    }
+    
+}
+
+.cat1{
+    border-radius: 40px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(59, 59, 231);
+    cursor: pointer;
+}
+.cat1 h3{
+    color: white;
+    padding: 20px 0px 0px 100px;
+    font-size: 22px;
+}
+.cat1 img{
+    width: 250px;
+    padding: 35px 0px 0px 0px ;
+    border-radius: 50px 50px 40px 40px ;
+}
+.cat2{
+    border-radius: 40px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(59, 59, 231);
+    cursor: pointer;
+}
+.cat2 h3{
+    color: white;
+    padding: 20px 0px 0px 100px;
+    font-size: 22px;
+}
+.cat2 img{
+    width: 250px;
+    padding: 35px 0px 0px 0px ;
+    border-radius: 50px 50px 40px 40px ;
+}
+.cat3{
+    border-radius: 40px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(59, 59, 231);
+    cursor: pointer;
+}
+.cat3 h3{
+    color: white;
+    padding: 20px 0px 0px 100px;
+    font-size: 22px;
+}
+.cat3 img{
+    width: 250px;
+    padding: 35px 0px 0px 0px ;
+    border-radius: 50px 50px 40px 40px ;
+}
+.cat4{
+    border-radius: 40px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(59, 59, 231);
+    cursor: pointer;
+}
+.cat4 h3{
+    color: white;
+    padding: 20px 0px 0px 100px;
+    font-size: 22px;
+}
+.cat4 img{
+    width: 250px;
+    padding: 35px 0px 0px 0px ;
+    border-radius: 50px 50px 40px 40px ;
+}
+.cat5{
+    border-radius: 40px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(59, 59, 231);
+    cursor: pointer;
+}
+.cat5 h3{
+    color: white;
+    padding: 20px 0px 0px 100px;
+    font-size: 22px;
+}
+.cat5 img{
+    width: 250px;
+    padding: 35px 0px 0px 0px ;
+    border-radius: 50px 50px 40px 40px ;
+}
+.head3{
+    position: absolute;
+    top: 3100px;
+}
+.head3 img{
+    border-radius: 40px;
+    position: relative;
+    left: 450px;
+    z-index: 1;
+}
+.head3 .h1{
+    position: relative;
+    background-color: rgb(241, 241, 241);
+    width: 380px;
+    height: 320px;
+    border-radius: 40px;
+    font-weight: bold;
+    z-index: 2;
+    top: -300px;
+    left: 300px;
+}
+.head3 .h2{
+    position: relative;
+    background-color: rgb(241, 241, 241);
+    width: 380px;
+    height: 320px;
+    border-radius: 40px;
+    font-weight: bold;
+    z-index: 2;
+    top: -520px;
+    left: 820px;
+}
+.h1 span{
+    color: blue;
+}
+.h2 span{
+    color: blue;
+}
+.h11{
+    position: relative;
+    top: 55px;
+    left: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.h22{
+    position: relative;
+    top: 55px;
+    left: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.h22 button{
+    position: relative;
+    border-radius: 30px;
+    background-color: rgb(245, 36, 106);
+    width: 100px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.7s;
+    height: 30px;
+    border-style: none;
+    left: 135px;
+}
+.h22 button:hover{
+    background-color: rgb(245, 36, 106);
+    color: whitesmoke;
+    transform: scale(1.1);
+}
+.h11 button{
+    position: relative;
+    border-radius: 30px;
+    background-color: rgb(245, 36, 106);
+    width: 100px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.7s;
+    height: 30px;
+    border-style: none;
+    left: 135px;
+}
+.h11 button:hover{
+    background-color: rgb(245, 36, 106);
+    color: whitesmoke;
+    transform: scale(1.1);
+}
+.foot{
+    position: absolute;
+    top: 4000px;
+}
+.foot img{
+    position: relative;
+    top: 100px;
+    width: 1513px;
+    border-radius: 50px 50px 0px 0px ;
+    z-index: 1;
+}
+.foot h4{
+    position: relative;
+    top: 140px;
+    left: 650px;
+    z-index: 2;
+}
